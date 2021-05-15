@@ -5,6 +5,10 @@
     font-family: 'IM Fell English', serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: azure;
     background-repeat: no-repeat;
@@ -154,4 +158,22 @@ main .tablee a{
 
 main .tablee a:hover{
     color: orange;
+}
+
+#scrollToTopBtn {
+  background-color: black;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 100px;
+  width: 110px;
+ margin-left: 185vh;
+
+}
+
+#scrollToTopBtn:hover{
+    background-color: red;
+    transition: all 1s ease; 
 }
